@@ -1,0 +1,29 @@
+.foot-container{
+    width: 100%;
+    height: 20vh;
+    background-color: #0A0A0A;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* position: fixed;
+    bottom: 0;
+    left: 0; */
+}
+.foot-container div{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 30px;
+    color: rgb(195, 201, 207);
+}
+.foot-container div h4{
+    margin-bottom: 10px;
+    color: #b48804;
+}
+.foot-container a{
+    color: rgb(195, 201, 207);
+}
+.foot-container a:hover{
+    color: #ffc107;
+}
